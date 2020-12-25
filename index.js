@@ -2,7 +2,7 @@
 const initialCards = [
     {
         name: 'Здесь будет название первой работы в портфолио',
-        link: 'https://cdn.pixabay.com/photo/2015/03/24/19/26/one-688064_640.png'
+        link: './image/gidraFoto.jpg'
     },
     {
         name: 'Здесь будет название второй работы в портфолио',
