@@ -1,0 +1,7 @@
+@import url(./__item/stec-list__item.css);
+
+.stec-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

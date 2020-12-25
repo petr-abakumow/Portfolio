@@ -1,0 +1,11 @@
+@import url(./__logo/header__logo.css);
+@import url(./__descriptor/header__descriptor.css);
+@import url(./__info/header__info.css);
+@import url(./__info-text/header__info-text.css);
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}

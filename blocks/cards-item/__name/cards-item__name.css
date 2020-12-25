@@ -1,0 +1,10 @@
+.cards-item__name {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}

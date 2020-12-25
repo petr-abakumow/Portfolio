@@ -1,0 +1,16 @@
+.header__descriptor {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgb(186, 186, 192);
+    margin: 50px auto;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+}

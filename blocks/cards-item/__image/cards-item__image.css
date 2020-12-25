@@ -1,0 +1,6 @@
+.cards-item__image {
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
