@@ -1,0 +1,14 @@
+.info__full-stack-button {
+    background-color: rgb(87, 87, 87);
+    border: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid white;
+    margin: 0;
+    padding: 0;
+}
+
+.info__full-stack-button:hover {
+    background: rgba(250, 250, 250, 0.8);
+    cursor: pointer;
+    transition: 0.8s;    
+}

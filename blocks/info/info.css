@@ -1,0 +1,13 @@
+
+@import url(./__title/info__title.css);
+@import url(./__list/info__list.css);
+@import url(./__list-item/info__list-item.css);
+@import url(./__full-stack/info__full-stack.css);
+@import url(./__full-stack-button/info__full-stack-button.css);
+@import url(./__text-portfolio/info__text-portfolio.css);
+@import url(./__button-portfolio/info__button-portfolio.css);
+
+.info {
+    max-width: 600px;
+    margin-left: 100px;
+}

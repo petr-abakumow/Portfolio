@@ -1,0 +1,12 @@
+.profile-info__about-me {
+    margin: 25px 0 0 0;
+    max-width: 600px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+   
+}
+
+.profile-info__about-me:last-child {
+    margin-top: 10px;
+}
