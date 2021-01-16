@@ -1,9 +1,11 @@
 .element-container {
     width: 100%;
-    max-width: 1024px;
+    /* max-width: 1024px; */
     margin: auto;
     display: flex;
     gap: 10px;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    flex-wrap: wrap;
 }
