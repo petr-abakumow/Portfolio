@@ -1,12 +1,15 @@
 .profile-info__about-me {
-    margin: 25px 0 0 0;
-    max-width: 600px;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 830px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
    
 }
 
-.profile-info__about-me:last-child {
+/* .profile-info__about-me:last-child {
     margin-top: 10px;
-}
+} */

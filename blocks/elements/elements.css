@@ -1,0 +1,9 @@
+@import url(./__item/elements__item.css);
+
+.elements {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+    box-sizing: border-box;
+}

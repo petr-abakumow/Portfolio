@@ -1,0 +1,9 @@
+.element-container {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,4 +1,9 @@
 .contacts__phone {
-    font-size: 15px;
-    margin: 5px 0 0 0;
+    margin: 18px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
 }
