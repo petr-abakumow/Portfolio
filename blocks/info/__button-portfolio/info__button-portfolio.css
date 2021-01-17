@@ -26,7 +26,12 @@
 
 @media screen and (max-width: 767px) {
     .info__button-portfolio {
+        margin-top: 10px;
         width: 100%;
-        max-height: 116px;
+        max-height: 60px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
     }
 }

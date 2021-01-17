@@ -7,3 +7,13 @@
     font-size: 20px;
     line-height: 24px;
 }
+
+@media screen and (max-width: 767px) {
+    .contacts__phone {
+        margin: 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
