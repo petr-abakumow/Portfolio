@@ -6,9 +6,9 @@
 
 @media screen and (max-width: 767px) {
     .content {
-        position: relative;
-        margin-top: 20px;
-        /* background-color: yellowgreen; */
+        position: relative;        /* background-color: yellowgreen; */
         width: 100%;
+        margin: 0;
+        box-sizing: border-box;
     }
 }

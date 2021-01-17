@@ -5,9 +5,7 @@
 @import url(./__icons/contacts__icons.css);
 @import url(./__image/contacts__image.css);
 
-.contacts {
-    
-}
+
 
 @media screen and (max-width: 767px) {
     .contacts {
