@@ -8,13 +8,14 @@
     color: #fff;
     box-sizing: border-box;
     display: flex;
+    min-height: 1080px;
     /* justify-content: center; */
     /* align-items: center; */
     /* height: 100vh; */
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .body {
         height: 100vh;
     }
-}
+} */
