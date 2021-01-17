@@ -10,11 +10,11 @@
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 @media screen and (max-width: 767px) {
     .body {
-        min-height: 1280px;
+        padding: 0 10px;
     }
 }

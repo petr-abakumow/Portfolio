@@ -7,3 +7,14 @@
     font-size: 36px;
     line-height: 44px;
 }
+
+
+@media screen and (max-width: 767px) {
+    .profile-info__greeting {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+        margin: 0;
+    }
+}
