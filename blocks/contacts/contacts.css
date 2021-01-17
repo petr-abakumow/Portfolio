@@ -13,7 +13,7 @@
     .contacts {
         position: absolute;
         left: 0;
-        bottom: 0;
+        top: 500px;
         display: flex;
         justify-content: space-between;
         width: 100%;
