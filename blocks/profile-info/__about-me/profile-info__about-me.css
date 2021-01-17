@@ -10,6 +10,12 @@
    
 }
 
-/* .profile-info__about-me:last-child {
-    margin-top: 10px;
-} */
+@media screen and (max-width: 767px) {
+    .profile-info__about-me {
+        max-width: 270px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+    }
+}

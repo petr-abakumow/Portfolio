@@ -1,5 +1,12 @@
 .content {
     width: 100%;
     max-width: 1450px;
-    margin: auto;
+    margin: 100px auto 0;
+}
+
+@media screen and (max-width: 767px) {
+    .content {
+        position: relative;
+        margin-top: 66px;
+    }
 }

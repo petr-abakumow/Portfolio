@@ -7,3 +7,14 @@
     width: 100%;
     max-width: 725px;
 }
+
+@media screen and (max-width: 767px) {
+    .info__text-portfolio {
+        margin-top: 50px;
+        max-width: 463px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 28px;
+    }
+}

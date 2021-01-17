@@ -7,6 +7,7 @@ const portfolioButton = document.querySelector('.info__button-portfolio');
 const popupPortfolio = document.querySelector('.popup-portfolio');
 const popupPortfolioContainer = document.querySelector('.element-container');
 const templateItem = document.querySelector('#template-item').content;
+const fotoMobail = document.querySelector('.foto');
 const array = [
     'HTML5',
     'CSS3',
@@ -59,4 +60,9 @@ popupPortfolioContainer.addEventListener('click', (e) => {
     }
 })
 
-
+function foto() {
+    if (window.screen.width <= 767) {
+        fotoMobail.setAttribute('src', '../../image/foto-petr-mobail.png');
+    }
+}
+foto()
