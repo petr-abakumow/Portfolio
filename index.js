@@ -8,6 +8,9 @@ const popupPortfolio = document.querySelector('.popup-portfolio');
 const popupPortfolioContainer = document.querySelector('.element-container');
 const templateItem = document.querySelector('#template-item').content;
 const fotoMobail = document.querySelector('.foto');
+const closePopupButton = document.querySelector('.popup__close');
+const closePopupPortfolioButton = document.querySelector('.popup-portfolio__close');
+
 const array = [
     'HTML5',
     'CSS3',
@@ -26,7 +29,7 @@ const array = [
 const interval = 100;
 
 fullStuckBatton.addEventListener('click', () => {
-    popup.classList.add('popup_open');
+    popup.classList.add('popup-opened');
     array.forEach((el, index) => {
         setTimeout(() => {
           const item = templateItem.cloneNode(true);
@@ -39,7 +42,7 @@ fullStuckBatton.addEventListener('click', () => {
 listContainer.addEventListener('click', (e) => {
     if (e.target === e.currentTarget) {
         list.textContent = '';
-        popup.classList.remove('popup_open');
+        popup.classList.remove('popup-opened');
     }
 })
 
@@ -66,3 +69,11 @@ function foto() {
     }
 }
 foto()
+
+closePopupButton.addEventListener('click', () => {
+    popup.classList.remove('popup-opened');
+})
+
+closePopupPortfolioButton.addEventListener('click', () => {
+    popupPortfolio.classList.remove('popup-opened');
+})

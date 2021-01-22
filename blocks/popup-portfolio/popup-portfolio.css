@@ -1,3 +1,5 @@
+@import url(./__close/popup-portfolio__close.css);
+
 .popup-portfolio {
     position: fixed;
     top: 0;
