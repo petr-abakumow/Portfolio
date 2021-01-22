@@ -20,3 +20,10 @@
 @import url(./blocks/portfolio-item-image/portfolio-item-image.css);
 @import url(./blocks/portfolio-item-name/portfolio-item-name.css);
 @import url(./blocks/link-item/link-item.css);
+
+
+a:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 0.3s;
+}
