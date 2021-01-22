@@ -71,8 +71,8 @@ function foto() {
 foto()
 
 closePopupButton.addEventListener('click', () => {
-    list.textContent = '';
     popup.classList.remove('popup-opened');
+    list.textContent = '';
 })
 
 closePopupPortfolioButton.addEventListener('click', () => {
