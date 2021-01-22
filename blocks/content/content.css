@@ -1,12 +1,12 @@
-.content {
+/* .content {
     width: 100%;
     max-width: 1450px;
-    margin: 100px auto 0;
-}
+    /* margin: 100px auto 0; */
+/* }  */
 
 @media screen and (max-width: 767px) {
     .content {
-        position: relative;        /* background-color: yellowgreen; */
+        position: relative;
         width: 100%;
         margin: 0;
         box-sizing: border-box;
