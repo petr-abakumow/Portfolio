@@ -65,7 +65,7 @@ popupPortfolioContainer.addEventListener('click', (e) => {
 
 function foto() {
     if (window.screen.width <= 767) {
-        fotoMobail.setAttribute('src', './image/foto-petr-mobail.png');
+        fotoMobail.setAttribute('src', './image/фото-профиль-mobile.jpg');
     }
 }
 foto()
